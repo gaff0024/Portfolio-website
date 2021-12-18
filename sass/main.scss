@@ -1,0 +1,33 @@
+@import 'bootstrap-entry';
+@import 'bootstrap-color';
+@import 'bootstrap-custom-variables';
+
+
+nav a {
+    font-weight: bold;
+}
+
+.banner{
+    background-image:linear-gradient(rgb(0 0 0 / 65%), rgb(0 0 0 / 65%)),url(../images/landon-arnold-ZtOcWht8r34-unsplash.jpg);
+    background-size: cover;
+    // height: 70vh;
+    // width: 100vw;
+    background-position: center;
+
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+.card {
+    transition: box-shadow .2s ;
+
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
